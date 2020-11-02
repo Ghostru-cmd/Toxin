@@ -1,0 +1,32 @@
+mixin dropdown_guest()
+	div.dropdown_guest
+		div.name_dropdown_guest гости
+		div.text_dropdown_guest
+			raw.text_in_dropdown_guest Сколько гостей
+			i.material-icons_dropdown_guest expand_more
+		div.dropdown_content_dropdown_guest
+			div.rows
+				li.row взрослые
+				li.row дети
+				li.row младенцы
+			div.conteiner_dropdown_guest
+				div.counts
+					button.pls.minus_1(disabled)
+						row.par -
+					row.countr.count_1 0
+					button.minus.pls_1
+						row.par +
+				div.counts 
+					button.pls.minus_2(disabled)
+						row.par -
+					row.countr.count_2 0
+					button.minus.pls_2
+						row.par +
+				div.counts
+					button.pls.minus_3(disabled)
+						row.par -
+					row.countr.count_3 0
+					button.minus.pls_3
+						row.par +
+			div.cancel_guest очистить
+			div.apply_guest применить

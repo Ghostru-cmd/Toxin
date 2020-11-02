@@ -1,0 +1,218 @@
+.dropdown_guest{
+	position: absolute;
+	width: 266px;
+	height: 67px;
+}
+.name_dropdown_guest{
+	position: absolute;
+	top: 3px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.text_dropdown_guest{
+	position: absolute;
+	width: 266px;
+	height: 44px;
+    top: 22px;
+    left: 0px;
+
+	background: #FFFFFF;
+	/* Dark 50% */
+
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 4px;	
+}
+.text_in_dropdown_guest{
+	position: absolute;
+    bottom: 13px;
+	top: 8px;
+    left: 14px;
+    height: 18px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	/* identical to box height, or 171% */
+
+
+	/* Dark 75% */
+
+	color: rgba(31, 32, 65, 0.75);
+}
+.material-icons_dropdown_guest{
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	top: -1px;
+    left: 220px;
+
+	font-family: Material Icons;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	display: grid;
+	align-items: center;
+	text-align: center;
+
+	/* Dark 50% */
+
+	color: rgba(31, 32, 65, 0.5);
+}
+.dropdown_content_dropdown_guest{
+	display: none;
+    list-style: none;
+    position: absolute;
+	width: 266px;
+    height: 159px;
+    top: 65px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.5);
+	box-sizing: border-box;
+	z-index: 4;
+
+}
+.rows{
+	position: initial;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-top: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.row{
+	position: initial;
+	width: 83px;
+	height: 15px;
+	text-align: left;
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-bottom: 22px;	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.pls{
+	width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+.pls:disabled{
+	width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+.minus{
+	width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+.conteiner_dropdown_guest{
+	width: 92px;
+    top: 0px;
+    right: 7px;
+    position: absolute;
+}
+.counts{
+	text-align: center;
+	width: 92px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.countr{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+    width: 12px;
+    margin-left: 9px;
+    margin-right: 9px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.par{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+	color: rgba(31, 32, 65, 0.5);
+}
+.cancel_guest{
+	display: none;
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    margin-top: 16px;
+    margin-left: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.5);
+}
+.apply_guest{
+    position: absolute;
+    width: 84px;
+    height: 15px;
+	margin-left: 170px;
+    margin-top: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+}

@@ -1,15 +1,12 @@
 // JS
-/*
 import './js/forms/find_number.js'
 import './js/form_elements/date_dropdown.js'
 import './js/form_elements/dropdown_guest.js'
 
 // SCSS
-import './assets/scss/main.scss'
+//import './assets/scss/main.scss'
 
 // CSS
-//import './assets/css/main.css'
-/*
 import './assets/css/modules/style_registred.css'
 import './assets/css/modules/style_unregister.css'
 import './assets/css/modules/style_footer.css'

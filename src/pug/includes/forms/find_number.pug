@@ -1,0 +1,15 @@
+include ../form_elements/date_dropdown.pug
+include ../form_elements/dropdown_guest.pug
+include ../form_elements/button_long.pug
+
+block find_number
+	div.find_number
+		h1.title Найдём номера под ваши пожелания
+		div.date_dropdown1
+			+date_dropdown('прибытие')
+		div.date_dropdown2
+			+date_dropdown('выезд')
+		div.dropdown_guest1
+			+dropdown_guest()
+		div.button_long1
+			+button_long('подобрать номер')
