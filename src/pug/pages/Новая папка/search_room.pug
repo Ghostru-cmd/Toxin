@@ -1,0 +1,72 @@
+html(lang='ru-RU')
+	head
+		meta(charset="UTF-8")
+		
+		include ../../header_unregister/header_unregister.pug
+		include ../../form_elements/filter_date_dropdown/filter_date_dropdown.pug       
+		include ../../form_elements/dropdown_guest/dropdown_guest.pug
+		include ../../form_elements/dropdown_comfort/dropdown_comfort.pug
+		include ../../form_elements/expandable_checkbox_list/expandable_checkbox_list.pug
+		include ../../forms/number_poster/number_poster.pug
+		include ../../footer/footer.pug
+		
+	script
+		include ../../plagins/raty/jquery.raty.js
+		include ../../plagins/smartpaginator/smartpaginator.js
+		include ../../plagins/smartpaginator/jquery-1.4.4.min.js
+		include ./smartpaginator.js
+		
+	style
+		include ./search_room.css
+		include ./plagins/raty/jquery.raty.css
+		include ./plagins/smartpaginator/smartpaginator.css
+		
+		title Search room
+	body
+		div
+			+header_unregister()
+		div.left_bar
+			+filter_date_dropdown()
+			+dropdown_guest()
+			div.checkbox_buttons_name
+				div.checkbox_buttons_name_text Checkbox Buttons
+				div.checkbox_buttons
+					input(type="checkbox", name="smoke", id="smoke")
+					label(for="smoke") Можно курить
+						span
+				div.checkbox_buttons
+					input(type="checkbox", name="pet", id="pet")
+					label(for="pet") Можно с питомцами
+						span
+				div.checkbox_buttons
+					input(type="checkbox", name="guests", id="guests")
+					label(for="guests") Можно пригласить гостей (до 10 человек)
+						span
+			div.checkbox_buttons_dostup_name
+				div.checkbox_buttons_name_text доступность
+				div.checkbox_buttons
+					input(type="checkbox", name="corridor", id="corridor")
+					label.corridor(for="corridor", style="	font-family: Montserrat;font-style: normal;font-weight: bold;font-size: 14px;line-height: 18px;color: rgba(31, 32, 65, 0.75);") Широкий коридор <br>
+						span.postscriptum Ширина коридоров в номере не менее 91 см.
+				div.checkbox_buttons
+					input(type="checkbox", name="disabled_person", id="disabled_person")
+					label.disabled_person(for="disabled_person", style="font-family: Montserrat;font-style: normal;font-weight: bold;font-size: 14px;line-height: 18px;color: rgba(31, 32, 65, 0.75);") Помощник для инвалидов <br>
+						span.postscriptum На 1 этаже вас встретит специалист  и проводит до номера.
+			+dropdown_comfort()
+			+expandable_checkbox_list()
+		div.main_page
+			p.rooms_list_text Номера, которые мы для вас подобрали
+			+number_poster('_1', '18140', '9 901₽')
+			+number_poster('_2', '18240', '9 902₽')
+			+number_poster('_3', '18340', '9 903₽')
+			+number_poster('_4', '4840', '9 904₽')
+			+number_poster('_5', '5840', '9 905₽')
+			+number_poster('_6', '6840', '9 906₽')
+			+number_poster('_7', '7840', '9 907₽')
+			+number_poster('_8', '8840', '9 908₽')
+			+number_poster('_9', '2840', '9 909₽')
+
+		div#smartpaginator
+				
+		div
+			+footer()

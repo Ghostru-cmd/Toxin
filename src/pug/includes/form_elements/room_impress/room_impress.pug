@@ -1,0 +1,25 @@
+block room_impress
+	
+	mixin room_impress()
+		.room_impress Впечатления от номера
+			.room_impress_doughnut
+				canvas#room_impress_doughnut
+				div.room_impress_votes_num 260
+				div.room_impress_votes_text голосов
+				.room_impress_legends
+					.room_impress_legends_orange
+					p.room_impress_legends_text Великолепно
+					.room_impress_legends_green
+					p.room_impress_legends_text Хорошо
+					.room_impress_legends_purple
+					p.room_impress_legends_text Удовлетворительно
+					.room_impress_legends_grey
+					p.room_impress_legends_text Разочарован
+
+		script
+			include ./Chart.bundle.min.js
+			include ./room_impress.js
+			
+		style 
+			include ./room_impress.css
+			include ./Chart.min.css

@@ -1,0 +1,14 @@
+block text_field
+	style
+		include ./text_field.css
+
+	mixin text_field(name_text_field, placeholder)
+		div.text_field
+			div.name_text_field= name_text_field
+			div.input_text_field
+				input(type="text", class="text_in_text_field", placeholder= placeholder)
+
+	script
+
+		include ./jquery.min.js
+		include ./text_field.js

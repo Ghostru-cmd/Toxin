@@ -1,0 +1,12 @@
+block radio_button
+	style
+		include ./radio_button.scss
+
+	mixin radio_button()
+		div.radio_button
+			div.form_radio.m
+				input(id="radio-1", type="radio", name="radio", value="1")
+				label(for="radio-1") Мужчина
+			div.form_radio.w
+				input(id="radio-2", type="radio", name="radio", value="2")
+				label(for="radio-2") Женьщина

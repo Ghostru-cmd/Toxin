@@ -1,0 +1,21 @@
+include ../form_elements/button_long_small.pug
+include ../form_elements/button_white_small.pug
+
+block header_unregister
+	div.header
+		div.logo
+			img(src="./assets/img/logo.svg")
+		div.head
+			div.menu О нас
+			div.menu Услуги
+			div.menu_row
+				i.material-icons_menu_row expand_more
+			div.menu Вакансии
+			div.menu Новости
+			div.menu Соглашения
+			div.menu_row
+				i.material-icons_menu_row expand_more
+		
+		div.btn
+			+button_white_small("войти")
+			+button_long_small("зарегистрироваться")

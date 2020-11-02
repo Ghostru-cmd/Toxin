@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.eot');
+    src: url('./fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('./fonts/Montserrat-Regular.woff') format('woff'),
+        url('./fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('./fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.eot');
+    src: url('./fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('./fonts/Montserrat-Bold.woff') format('woff'),
+        url('./fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('./fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./fonts/opensansbold.woff2') format('woff2'),
+        url('./fonts/opensansbold.woff') format('woff'),
+        url('./fonts/opensansbold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.eot'); /* For IE6-8 */
+	src: local('Material Icons'),
+		 local('MaterialIcons-Regular'),
+		 url('./fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff2') format('woff2'),
+		 url('./fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff') format('woff'),
+		 url('.//fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "raty";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./plagins/raty/fonts/raty.eot");
+    src: url("./plagins/raty/fonts/raty.eot?#iefix") format("embedded-opentype");
+    src: url("./plagins/raty/fonts/raty.svg#raty") format("svg");
+    src: url("./plagins/raty/fonts/raty.ttf") format("truetype");
+    src: url("./plagins/raty/fonts/raty.woff") format("woff");
+}
+.left_bar{
+    position: absolute;
+    top: 70px;
+    left: 140px;
+    width: 266px;
+    height: 800px;
+}
+.filter_date_dropdown{
+    position: relative;
+    top: 30px;
+}
+.dropdown_guest{
+    position: relative;
+    top: 114px;
+}
+.checkbox_buttons{
+    position: relative;
+    width: 266px;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.checkbox_buttons_name{
+    position: relative;
+    top: 309px;
+}
+.checkbox_buttons_dostup_name{
+    position: relative;
+    top: 340px;
+}
+.checkbox_buttons_dostup_name .checkbox_buttons{
+    margin-bottom: 42px;
+}
+.checkbox_buttons_name_text{
+    position: relative;
+    width: 150px;
+    height: 15px;
+    margin-bottom: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.checkbox_buttons label{
+    position: absolute;
+    width: 237px;
+    height: 20px;
+    left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    /* Dark 50% */
+
+    color: rgba(31, 32, 65, 0.5);
+}
+.checkbox_buttons label:before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    left: -30px;
+    background: #FFFFFF;
+    /* Dark 25% */
+
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.checkbox_buttons input[type=checkbox]{
+    display: none;
+}
+.checkbox_buttons input[type=checkbox]:checked + label:before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    left: -30px;
+    
+    background: #FFFFFF;
+    /* Primary Color */
+    
+    border: 1px solid #BC9CFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.checkbox_buttons input[type=checkbox]:checked + label span::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 2px;
+    height: 7px;
+    top: 6px;
+    left: -19px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    transform: rotate(50deg);
+}
+.checkbox_buttons input[type=checkbox]:checked + label span::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 2px;
+    top: 10px;
+    left: -25px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    transform: rotate(50deg);
+}
+.dropdown_comfort{
+    position: relative;
+    top: 336px;
+}
+.expandable_checkbox_list{
+    position: relative;
+    top: 423px;
+}
+#corridor #disabled_person{  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.postscriptum{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(31, 32, 65, 0.5);
+}
+.main_page{
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    left: 465px;
+    height: 1385px;
+    width: 844px;
+}
+.rooms_list_text{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1F2041;
+    margin: 0px;
+}
+#_1{
+    top: 51px;
+}
+#_2{
+    top: 51px;
+    left: 282px;
+}
+#_3{
+    top: 51px;
+    left: 564px;
+}
+#_4{
+    top: 328px;
+}
+#_5{
+    top: 328px;
+    left: 282px;
+}
+#_6{
+    top: 328px;
+    left: 564px;
+}
+#_7{
+    top: 656px;
+}
+#_8{
+    top: 656px;
+    left: 282px;
+}
+#_9{
+    top: 656px;
+    left: 564px;
+}
+.footer{
+    top: 1700px;
+}
+

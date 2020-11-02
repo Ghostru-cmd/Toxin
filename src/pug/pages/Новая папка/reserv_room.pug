@@ -1,0 +1,14 @@
+html(lang='ru-RU')
+	head
+	
+		include ../../header_unregister/header_unregister.pug
+		include ../../forms/find_number/find_number.pug
+		include ../../footer/footer.pug
+	style
+		include ./reserv_room.css
+
+	body
+		+header_unregister()
+		img(src="./images/landing_page.svg",class="landing_page" alt="kartinka")
+		+find_number()
+		+footer()

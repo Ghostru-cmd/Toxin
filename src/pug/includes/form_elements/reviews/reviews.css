@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.eot');
+    src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.eot');
+    src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../fonts/opensansbold.woff2') format('woff2'),
+        url('../../fonts/opensansbold.woff') format('woff'),
+        url('../../fonts/opensansbold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.eot'); /* For IE6-8 */
+	src: local('Material Icons'),
+		 local('MaterialIcons-Regular'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff2') format('woff2'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff') format('woff'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.ttf') format('truetype');
+}
+.reviews{
+    position: absolute;
+    width: 712px;
+    height: 306px;
+}
+.reviews_name{
+    position: relative;
+    width: 295px;
+    height: 24px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+.review{
+    position: relative;
+    width: 711px;
+    height: 153px;
+}
+.account{
+    position: relative;
+    width: 278.05px;
+    height: 51px;
+}
+.account_avatar{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+.account_name{
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: 20px;
+    left: 0px;
+    width: 221px;
+    height: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.review_time{
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: -4px;
+    width: 220px;
+    height: 29px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.like_button{
+    position: relative;
+    top: 29px;
+    left: 4px;
+}
+.reviews_text{
+    position: relative;
+    float: right;
+    top: -13px;
+    width: 653px;
+    height: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}

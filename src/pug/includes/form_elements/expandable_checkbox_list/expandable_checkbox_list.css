@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.eot');
+    src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.eot');
+    src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.eot'); /* For IE6-8 */
+	src: local('Material Icons'),
+		 local('MaterialIcons-Regular'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff2') format('woff2'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff') format('woff'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.ttf') format('truetype');
+}
+.expandable_checkbox_list {
+    position: absolute;
+    width: 266px;
+    height: 216px;
+    cursor: default;
+}
+.expandable_checkbox_list_hiding{
+    height: 44px;
+}
+.expandable_checkbox_list_header{
+    position: absolute;
+    width: 266px;
+    height: 44px;
+}
+.expandable_checkbox_list_name {
+    position: absolute;
+    width: 192px;
+    height: 15px;
+    top: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+.material-icons_expandable_checkbox_list{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 222px;
+
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+    /* Dark 50% */
+
+    color: rgba(31, 32, 65, 0.5);
+    transition: transform 1s;
+    transform: rotate(0deg);
+}
+.rotate180{
+    transition: transform 1s;
+    transform: rotate(180deg);
+}
+.expandable_checkbox_list_checkboxs{
+    position: absolute;
+    width: 266px;
+    height: 172px;
+    top: 44px;
+    display: none;
+}
+.expandable_checkbox_list_checkbox{
+    position: relative;
+    width: 266px;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.expandable_checkbox_list_checkbox label{
+    position: absolute;
+    width: 237px;
+    height: 20px;
+    left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+
+    /* Dark 50% */
+
+    color: rgba(31, 32, 65, 0.5);
+}
+.expandable_checkbox_list_checkboxs label:before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    left: -30px;
+    background: #FFFFFF;
+    /* Dark 25% */
+
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.expandable_checkbox_list_checkbox input[type=checkbox]{
+    display: none;
+}
+.expandable_checkbox_list_checkbox input[type=checkbox]:checked + label:before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    left: -30px;
+    
+    background: #FFFFFF;
+    /* Primary Color */
+    
+    border: 1px solid #BC9CFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.expandable_checkbox_list_checkbox input[type=checkbox]:checked + label span::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 2px;
+    height: 7px;
+    top: 6px;
+    left: -19px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    transform: rotate(50deg);
+}
+.expandable_checkbox_list_checkbox input[type=checkbox]:checked + label span::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 6px;
+    height: 2px;
+    top: 10px;
+    left: -25px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    transform: rotate(50deg);
+}
+
+    

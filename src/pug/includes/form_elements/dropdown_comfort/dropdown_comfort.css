@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.eot');
+    src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.eot');
+    src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.eot'); /* For IE6-8 */
+	src: local('Material Icons'),
+		 local('MaterialIcons-Regular'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff2') format('woff2'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.woff') format('woff'),
+		 url('../../fonts/material-design-icons-master/iconfont/MaterialIcons-Regular.ttf') format('truetype');
+}
+*{
+	cursor: default;
+}
+.dropdown.dropdown_comfort{
+	position: absolute;
+	width: 266px;
+	height: 44px;
+}
+.name.dropdown_comfort{
+	position: absolute;
+	top: 3px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.text_dropdown.dropdown_comfort{
+	position: absolute;
+	width: 266px;
+	height: 44px;
+	top: 23px;
+
+	background: #FFFFFF;
+	/* Dark 50% */
+
+	border: 1px solid rgba(31, 32, 65, 0.5);
+	box-sizing: border-box;
+	border-radius: 2px;	
+}
+.text{
+	position: absolute;
+    bottom: 13px;
+    top: 13px;
+    left: 15px;
+    height: 18px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	/* identical to box height, or 171% */
+
+
+	/* Dark 75% */
+
+	color: rgba(31, 32, 65, 0.75);
+}
+.material-icons.dropdown_comfort{
+	position: sticky;
+	width: 44px;
+	height: 44px;
+	left: 353px;
+	margin-right: 0px;
+
+	font-family: Material Icons;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	display: grid;
+	align-items: center;
+	text-align: center;
+
+	/* Dark 50% */
+
+	color: rgba(31, 32, 65, 0.5);
+}
+.dropdown_content.dropdown_comfort{
+	display: none;
+    list-style: none;
+    position: absolute;
+    width: 266px;
+	height: 119px;
+    top: 65px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.5);
+	box-sizing: border-box;
+	z-index: 4;
+
+}
+.rows{
+	position: initial;
+    width: 133px;
+    height: 100px;
+    text-align: center;
+    margin-top: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+}
+.row{
+	position: initial;
+    width: 133px;
+	height: 15px;
+	text-align: left;
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-bottom: 22px;	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.plus{
+	width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+.min{
+	width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+.conteiner.dropdown_comfort{
+	width: 92px;
+    top: 0px;
+    right: 7px;
+    position: absolute;
+}
+.count{
+	text-align: center;
+	width: 92px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.counter{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+    width: 12px;
+    margin-left: 9px;
+    margin-right: 9px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.pam{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+	color: rgba(31, 32, 65, 0.5);
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.eot');
+    src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.toggle input[type=checkbox]{
+	height: 0;
+	width: 0;
+	display: none;
+}
+.toggle_lable {
+	position: absolute;
+    width: 40px;
+    height: 20px;
+
+    background: #FFFFFF;
+    /* Dark 25% */
+
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.toggle_lable:after {
+	content: '';
+	position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 3px;
+    left: 2px;
+
+/* Dark 25% */
+
+background: rgba(31, 32, 65, 0.25);
+border-radius: 10px;
+}
+.toggle input:checked + .toggle_lable {
+	border-color: #BC9CFF;
+}
+.toggle input:checked + .toggle_lable:after {
+    left: 36px;
+    top: 3px;
+    transform: translateX(-100%);
+    background-color: #BC9CFF;
+}
+.toggle_name{
+    position: absolute;
+    width: 210px;
+    height: 24px;
+    left: 60px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        style
+            include ./room_details.css
+
+        script
+            include ../../header_unregister/header_unregister.pug
+            include ../../form_elements/room_info/room_info.pug
+            include ../../form_elements/room_impress/room_impress.pug
+            include ../../forms/reservation/reservation.pug
+            include ../../form_elements/reviews/reviews.pug
+            include ../../form_elements/rules/rules.pug
+            include ../../form_elements/canceling/canceling.pug
+            include ../../footer/footer.pug
+
+        title Room details
+    body
+        +header_unregister()
+        .room_details_images
+            .room_details_main
+                img(src="./images/room_details_main.svg", alt="")
+            .room_details_dop1
+                img(src="./images/room_details_dop1.svg", alt="")
+            .room_details_dop2
+                img(src="./images/room_details_dop2.svg", alt="")
+        +room_info()
+        +room_impress()
+        +reservation(888, 'люкс', '9 990')
+        +reviews()
+        +rules()
+        +canceling()
+        +footer()
+
+
+
+
+        
+
+    

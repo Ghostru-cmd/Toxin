@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.eot');
+    src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.eot');
+    src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+.text_field{
+	position: absolute;
+	width: 320px;
+	height: 67px;
+}
+.name_text_field{
+	position: absolute;
+	top: 3px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	/* Dark 100% */
+
+	color: #1F2041;
+}
+.input_text_field{
+	position: absolute;
+	width: 320px;
+	height: 44px;
+	top: 23px;
+}
+.text_in_text_field{
+	position: absolute;
+	width: 320px;
+	height: 44px;
+	padding-left: 14px;
+	padding-bottom: 3px;
+
+	background: #FFFFFF;
+	border: 1px solid rgba(31, 32, 65, 0.25);
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.text_in_text_field::-webkit-input-placeholder {
+	position: absolute;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height, or 129% */
+
+
+	/* Dark 25% */
+
+	color: rgba(31, 32, 65, 0.25);
+}

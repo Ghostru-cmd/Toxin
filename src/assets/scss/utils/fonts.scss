@@ -1,2 +1,42 @@
 // Fonts here
-// see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular/Montserrat-Regular.eot');
+    src: url('/assets/fonts/Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Regular/Montserrat-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype'),
+        url('/assets/fonts/Montserrat-Regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold/Montserrat-Bold.eot');
+    src: url('/assets/fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Bold/Montserrat-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Bold/Montserrat-Bold.ttf') format('truetype'),
+        url('/assets/fonts/Montserrat-Bold/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/assets/fonts/Quicksand/opensansbold.woff2') format('woff2'),
+        url('/assets/fonts/Quicksand/opensansbold.woff') format('woff'),
+        url('/assets/fonts/Quicksand/opensansbold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/MaterialIcons-Regular/MaterialIcons-Regular.eot'); /* For IE6-8 */
+	src: local('Material Icons'),
+		 local('MaterialIcons-Regular'),
+		 url('/assets/fonts/MaterialIcons-Regular/MaterialIcons-Regular.woff2') format('woff2'),
+		 url('/assets/fonts/MaterialIcons-Regular/MaterialIcons-Regular.woff') format('woff'),
+		 url('/assets/fonts/MaterialIcons-Regular/MaterialIcons-Regular.ttf') format('truetype');
+}

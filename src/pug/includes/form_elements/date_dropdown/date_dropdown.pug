@@ -1,0 +1,22 @@
+block date_dropdown
+	
+	mixin date_dropdown(name)
+		div.date_dropdown
+			div.name_data_dropdown= name
+			div.data_dropdown
+				row.data_number
+				i.material-icons_data_dropdown expand_more
+			div.dropdown_calendar
+				i.row_left_calendar arrow_back
+				div.month_name_data_dropdown
+				i.row_right_calendar arrow_forward
+				div#calendar
+				div.cancel_data_dropdown очистить
+				div.apply_data_dropdown применить
+		style
+			include ./date_dropdown.css	
+					
+		script
+			
+			include ./jquery.min.js
+			include ./date_dropdown.js
