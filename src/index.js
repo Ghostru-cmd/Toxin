@@ -1,3 +1,8 @@
+//jquery
+import './js/jquery.min.js'
+import 'jquery'
+import 'popper.js'
+
 // JS
 import './js/forms/find_number.js'
 import './js/form_elements/date_dropdown.js'
