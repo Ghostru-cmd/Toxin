@@ -1,0 +1,31 @@
+include ../form_elements/text_field.pug
+include ../form_elements/radio_button.pug
+include ../form_elements/toggle.pug
+include ../form_elements/button_long.pug
+include ../form_elements/button_white.pug
+
+block registration
+	div.registration
+		div.name_registration
+			row.registration_name Регистрация аккаунта
+		div.user_firstname
+			+text_field('', 'Имя')
+		div.user_lastname
+			+text_field('', 'Фамилия')
+		div.male_female
+			+radio_button()
+		div.birthday
+			+text_field('дата рождения', 'ДД.ММ.ГГГГ')
+		div.login_frame
+			div.e-mail
+				+text_field('данные для входа в сервис', 'Email')
+			div.password
+				+text_field('', 'Пароль')
+		div.toggle_givmail
+			+toggle()
+		div.button_submit
+			+button_long('перейти к оплате')
+		div.login_footer
+			row.if_acc_isset Уже есть аккаунт на Toxin
+			div.button_login
+				+button_white('войти')
