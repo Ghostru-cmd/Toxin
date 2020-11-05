@@ -1,0 +1,14 @@
+mixin number_poster(id, number, cost)
+	div.number_poster(id= id)
+		div.number_poster_image 
+			img.number_poster_image_img(src='./assets/img/' + id + '.svg', alt="kartinka")
+			img.number_poster_image_img_radius(src='./assets/img/roll.svg', alt="kartinka")
+		div.number_poster_number= '№' + number
+		div.number_poster_cost
+			div.number_poster_cost_cost= cost
+			div.number_poster_cost_text в сутки
+		div.number_poster_border
+		div.number_poster_stars
+		div.number_poster_reviews
+			div.number_poster_reviews_count 65
+			div.number_poster_reviews_text Отзывов

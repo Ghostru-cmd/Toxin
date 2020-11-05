@@ -13,6 +13,12 @@ import './js/forms/reservation.js'
 import './js/form_elements/like_button.js'
 import './js/plagins/Chart.bundle.min.js'
 import './js/form_elements/room_impress.js'
+import './js/form_elements/filter_date_dropdown.js'
+import './js/plagins/Smartpaginator.js'
+import './js/form_elements/dropdown_comfort.js'
+import './js/form_elements/expandable_checkbox_list.js'
+import './js/forms/number_poster.js'
+import './js/plagins/jquery.raty.js'
 
 // SCSS
 import './assets/scss/form_elements/radio_button.scss'
@@ -44,7 +50,14 @@ import './assets/css/form_elements/like_button.css'
 import './assets/css/form_elements/rules.css'
 import './assets/css/form_elements/canceling.css'
 import './assets/css/form_elements/room_impress.css'
-import './assets/css/form_elements/Chart.min.css'
+import './assets/css/plagins/Chart.min.css'
+import './assets/css/form_elements/filter_date_dropdown.css'
+import './assets/css/plagins/Smartpaginator.css'
+import './assets/css/form_elements/dropdown_comfort.css'
+import './assets/css/form_elements/expandable_checkbox_list.css'
+import './assets/css/forms/number_poster.css'
+import './assets/css/plagins/jquery.raty.css'
+import './assets/css/pages/search_room.css'
 
 
 // Vue.js

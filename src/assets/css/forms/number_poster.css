@@ -1,0 +1,128 @@
+.number_poster{
+    position: absolute;
+    width: 270px;
+    height: 257px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-radius: 4px;
+    z-index: 0;
+}
+.poster{
+    position: absolute;
+    width: 332px;
+    height: 189px;
+}
+.number_poster_image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.number_poster_image > .number_poster_image_img{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.number_poster_image_img_radius{
+    position: absolute;
+    width: 52px;
+    height: 29px;
+    top: 123px;
+    left: 209px;
+    z-index: 1;
+}
+.number_poster_number{
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    top: 171px;
+    left: 22px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #1F2041;
+}
+.number_poster_cost{
+    position: absolute;
+    width: 101px;
+    height: 20px;
+    top: 174px;
+    left: 152px;
+}
+.number_poster_cost_cost{
+    position: absolute;
+    width: 58px;
+    height: 20px;
+    top: 2px;
+    left: 1px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.5);
+}
+.number_poster_cost_text{
+    position: absolute;
+    width: 58px;
+    height: 20px;
+    top: 2px;
+    left: 56px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgba(31, 32, 65, 0.5);
+}
+.number_poster_border{
+    position: absolute;
+    width: 230px;
+    height: 1px;
+    top: 205px;
+    left: 20px;
+    background: rgba(31, 32, 65, 0.1);
+}
+.number_poster_stars{
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    top: 217px;
+    left: 22px;
+    z-index: 1;
+}
+.number_poster_reviews{
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    top: 220px;
+    left: 166px;
+}
+.number_poster_reviews_count{
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    top: -1px;
+    right: 66px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.5);
+}
+.number_poster_reviews_text{
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    top: -2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.5);
+}

@@ -1,0 +1,30 @@
+block dropdown_comfort
+	div.dropdown_comfort
+		div.name.dropdown_comfort удобства номера
+		div.text_dropdown.dropdown_comfort
+			raw.text 2 спальни, 2 кровати...
+			i.material-icons.dropdown_comfort expand_more
+		div.dropdown_content.dropdown_comfort
+			div.rows
+				li.row спальни
+				li.row кровати
+				li.row ванные комнаты
+			div.conteiner.dropdown_comfort
+				div.count
+					button.plus.min_1
+						row.pam -
+					row.counter.counter_1 2
+					button.min.plus_1
+						row.pam +
+				div.count 
+					button.plus.min_2
+						row.pam -
+					row.counter.counter_2 2
+					button.min.plus_2
+						row.pam +
+				div.count
+					button.plus.min_3(disabled)
+						row.pam -
+					row.counter.counter_3 0
+					button.min.plus_3
+						row.pam +

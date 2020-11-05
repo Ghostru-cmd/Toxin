@@ -1,32 +1,21 @@
+include ../includes/modules/header_unregister.pug
+include ../includes/form_elements/filter_date_dropdown.pug       
+include ../includes/form_elements/dropdown_guest.pug
+include ../includes/form_elements/dropdown_comfort.pug
+include ../includes/form_elements/expandable_checkbox_list.pug
+include ../includes/forms/number_poster.pug
+include ../includes/modules/footer.pug
+
 html(lang='ru-RU')
 	head
 		meta(charset="UTF-8")
-		
-		include ../../header_unregister/header_unregister.pug
-		include ../../form_elements/filter_date_dropdown/filter_date_dropdown.pug       
-		include ../../form_elements/dropdown_guest/dropdown_guest.pug
-		include ../../form_elements/dropdown_comfort/dropdown_comfort.pug
-		include ../../form_elements/expandable_checkbox_list/expandable_checkbox_list.pug
-		include ../../forms/number_poster/number_poster.pug
-		include ../../footer/footer.pug
-		
-	script
-		include ../../plagins/raty/jquery.raty.js
-		include ../../plagins/smartpaginator/smartpaginator.js
-		include ../../plagins/smartpaginator/jquery-1.4.4.min.js
-		include ./smartpaginator.js
-		
-	style
-		include ./search_room.css
-		include ./plagins/raty/jquery.raty.css
-		include ./plagins/smartpaginator/smartpaginator.css
-		
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		title Search room
 	body
 		div
-			+header_unregister()
+			block header_unregister
 		div.left_bar
-			+filter_date_dropdown()
+			block filter_date_dropdown
 			+dropdown_guest()
 			div.checkbox_buttons_name
 				div.checkbox_buttons_name_text Checkbox Buttons
@@ -52,8 +41,8 @@ html(lang='ru-RU')
 					input(type="checkbox", name="disabled_person", id="disabled_person")
 					label.disabled_person(for="disabled_person", style="font-family: Montserrat;font-style: normal;font-weight: bold;font-size: 14px;line-height: 18px;color: rgba(31, 32, 65, 0.75);") Помощник для инвалидов <br>
 						span.postscriptum На 1 этаже вас встретит специалист  и проводит до номера.
-			+dropdown_comfort()
-			+expandable_checkbox_list()
+			block dropdown_comfort
+			block expandable_checkbox_list
 		div.main_page
 			p.rooms_list_text Номера, которые мы для вас подобрали
 			+number_poster('_1', '18140', '9 901₽')
@@ -69,4 +58,4 @@ html(lang='ru-RU')
 		div#smartpaginator
 				
 		div
-			+footer()
+			block footer

@@ -40,3 +40,13 @@
 		 url('/assets/fonts/MaterialIcons-Regular/MaterialIcons-Regular.woff') format('woff'),
 		 url('/assets/fonts/MaterialIcons-Regular/MaterialIcons-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: "raty";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/Raty/raty.eot");
+    src: url("/assets/fonts/Raty/raty.eot?#iefix") format("embedded-opentype");
+    src: url("/assets/fonts/Raty/raty.svg#raty") format("svg");
+    src: url("/assets/fonts/Raty/raty.ttf") format("truetype");
+    src: url("/assets/fonts/Raty/raty.woff") format("woff");
+}
