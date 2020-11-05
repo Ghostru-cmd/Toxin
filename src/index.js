@@ -1,5 +1,4 @@
 //jquery
-import './js/jquery.min.js'
 import 'jquery'
 import 'popper.js'
 
@@ -9,6 +8,11 @@ import './js/form_elements/date_dropdown.js'
 import './js/form_elements/dropdown_guest.js'
 import './js/forms/registration.js'
 import './js/form_elements/text_field.js'
+import './js/forms/login.js'
+import './js/forms/reservation.js'
+import './js/form_elements/like_button.js'
+import './js/plagins/Chart.bundle.min.js'
+import './js/form_elements/room_impress.js'
 
 // SCSS
 import './assets/scss/form_elements/radio_button.scss'
@@ -24,11 +28,23 @@ import './assets/css/forms/find_number.css'
 import './assets/css/form_elements/date_dropdown.css'
 import './assets/css/form_elements/dropdown_guest.css'
 import './assets/css/form_elements/button_long.css'
-import './assets/css/pages/registration.css'
+import './assets/css/pages/registration_page.css'
 import './assets/css/forms/registration.css'
 import './assets/css/form_elements/text_field.css'
 import './assets/css/form_elements/toggle.css'
 import './assets/css/form_elements/button_white.css'
+import './assets/css/pages/reserv_room.css'
+import './assets/css/pages/signin.css'
+import './assets/css/forms/login.css'
+import './assets/css/pages/room_details.css'
+import './assets/css/form_elements/room_info.css'
+import './assets/css/forms/reservation.css'
+import './assets/css/form_elements/reviews.css'
+import './assets/css/form_elements/like_button.css'
+import './assets/css/form_elements/rules.css'
+import './assets/css/form_elements/canceling.css'
+import './assets/css/form_elements/room_impress.css'
+import './assets/css/form_elements/Chart.min.css'
 
 
 // Vue.js

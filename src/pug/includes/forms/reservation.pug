@@ -1,0 +1,37 @@
+include ../form_elements/date_dropdown.pug
+include ../form_elements/dropdown_guest.pug
+include ../form_elements/button_long.pug
+
+mixin reservation(number, lux, cost)
+	div.reservation 
+		div.numbers
+			div.numbers_namber= '№' + number
+			div.numbers_lux= lux
+			div.numbers_cost= cost
+			div.numbers_cost_text в сутки
+		div.dates_row
+			div.date_comein 
+				+date_dropdown('прибытие')
+			div.date_comeout 
+				+date_dropdown('выезд')
+		div.guests_row 
+			+dropdown_guest()
+		div.cost_count
+			div.cost_count_count= cost + ' x 0 суток'
+			div.cost_count_cost 0₽
+		div.tax_servis
+			div.tax_servis_sail Сбор за услуги: скидка 2 179₽
+			div.tax_servis_sail_dop_info i
+			div.tax_servis_sail_cost 0₽
+		div.tax_dop
+			div.tax_dop_servis Сбор за дополнительные услуги
+			div.tax_dop_servis_dop_info i
+			div.tax_dop_servis_cost 300₽
+		div.total 
+			div.total_name Итого
+			div.total_row
+			div.total_cost 0₽
+		div.reservation_button
+			+button_long('забронировать')
+			
+			

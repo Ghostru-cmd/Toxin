@@ -1,0 +1,299 @@
+.reservation{
+    position: absolute;
+    width: 380px;
+    height: 511px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.numbers_namber{
+    position: absolute;
+    width: 64px;
+    height: 30px;
+    top: 45px;
+    left: 27px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 17px;
+    
+    /* Dark 100% */
+    
+    color: #1F2041;
+}
+.numbers_lux{
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    top: 51px;
+    left: 98px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Primary Color */
+
+    color: #BC9CFF;
+}
+.numbers_cost{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 49px;
+    left: 249px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+
+    color: rgba(31, 32, 65, 0.5);
+}
+.numbers_cost_text{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    top: 50px;
+    left: 304px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 129% */
+
+
+    color: rgba(31, 32, 65, 0.5);
+}
+.date_comein{
+    position: absolute;
+    width: 150px;
+    height: 65px;
+    top: 89px;
+    left: 29px;
+}
+.date_comeout{
+    position: absolute;
+    width: 150px;
+    height: 65px;
+    top: 89px;
+    left: 199px;
+}
+.guests_row{
+    position: absolute;
+    width: 320px;
+    height: 64px;  
+    top: 171px;
+    left: 29px;
+}
+.cost_count{
+    position: absolute;
+    width: 319px;
+    height: 24px;  
+    top: 259px;
+    left: 31px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    
+    /* Dark 75% */
+    
+    color: rgba(31, 32, 65, 0.75);
+}
+.cost_count_count{
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    top: -4px;
+    left: -1px;
+}
+.cost_count_cost{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: -4px;
+    right: 1px;
+    text-align: right;
+}
+.tax_servis{
+    position: absolute;
+    width: 319px;
+    height: 24px;
+    top: 291px;
+    left: 32px;
+}
+.tax_servis_sail{
+    position: absolute;
+    width: 214px;
+    height: 24px;
+    top: -2px;
+    left: -2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.tax_servis_sail_dop_info{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -1px;
+    left: 217px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(31, 32, 65, 0.25);
+}
+.tax_servis_sail_cost{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: -2px;
+    right: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.75);
+}
+.tax_dop{
+    position: absolute;
+    width: 319px;
+    height: 24px;
+    top: 327px;
+    left: 32px;
+}
+.tax_dop_servis{
+    position: absolute;
+    width: 214px;
+    height: 24px;
+    top: -1px;
+    left: -2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.tax_dop_servis_dop_info{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -1px;
+    left: 217px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(31, 32, 65, 0.25);
+}
+.tax_dop_servis_cost{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: -4px;
+    right: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: rgba(31, 32, 65, 0.75);
+}
+.total{
+    position: absolute;
+    width: 319px;
+    height: 24px;
+    top: 393px;
+    left: 31px;
+}
+.total_name{
+    position: absolute;
+    width: 59px;
+    height: 24px;
+    top: -2px;
+    left: -1px;
+    
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    /* Dark 100% */
+    
+    color: #1F2041;
+}
+.total_row{
+    position: absolute;
+    width: 182px;
+    height: 1px;
+    top: 17px;
+    left: 63px;
+    
+    border-top: 1px dotted rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+}
+.total_cost{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1F2041;
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    top: -1px;
+    right: 1px;
+    text-align: right;
+}
+.reservation_button{
+    position: absolute;
+    width: 320px;
+    height: 44px;
+    top: 436px;
+    left: 29px;
+}

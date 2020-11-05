@@ -1,0 +1,13 @@
+include ../includes/modules/header_unregister.pug
+include ../includes/forms/login.pug
+include ../includes/modules/footer.pug
+
+html(lang='ru-RU')
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	body
+		block header_unregister
+		img(src="./assets/img/registration.svg", alt="kartinka")
+		block login
+		block footer

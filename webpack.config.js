@@ -3,6 +3,7 @@ const webpack =  require('webpack')
 const fs = require('fs')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const PATHS = {
   src: path.resolve(__dirname, './src'),
@@ -20,8 +21,7 @@ module.exports = {
   },
   output: {
     filename: `${PATHS.assets}js/[name].js`,
-    path: PATHS.dist,
-    publicPath: '/'
+    path: PATHS.dist
   },
   module: {
     rules: [{
@@ -100,6 +100,11 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
+    }),
+    new CopyWebpackPlugin({
+        patterns: [
+            { from: `${PATHS.src}/assets/img`, to: `${PATHS.dist}/assets/img`}
+        ]
     }),
     ...PAGES.map(page => new HtmlWebpackPlugin ({
       template: `${PAGES_DIR}/${page}`,

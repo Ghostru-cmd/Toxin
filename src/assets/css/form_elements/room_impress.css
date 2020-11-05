@@ -1,0 +1,121 @@
+.room_impress{
+    position: relative;
+    width: 240px;
+    height: 24px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+.room_impress_doughnut{
+    position: relative;
+    top: 20px;
+    left: -14px;
+}
+.room_impress_votes_num{
+    position: relative;
+    width: 41px;
+    height: 30px;
+    left: 52px;
+    top: -98px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #BC9CFF;
+}
+.room_impress_votes_text{
+    position: relative;
+    width: 146px;
+    height: 14px;
+    left: 0px;
+    top: -96px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #BC9CFF;
+}
+.room_impress_legends{
+    position: relative;
+    top: -145px;
+}
+.room_impress_legends_text{
+    position: relative;
+    width: 146px;
+    height: 0px;
+    left: 178px;
+    top: -29px;
+    margin-bottom: 0px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+}
+.room_impress_legends_orange{
+    position: relative;
+    width: 10px;
+    height: 10px;   
+    left: 163px;
+    top: 2px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFE39C 0%, #FFBA9C 100%);
+}
+.room_impress_legends_green{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 163px;
+    top: 2px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+}
+.room_impress_legends_purple{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 163px;
+    top: 2px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
+.room_impress_legends_grey{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 163px;
+    top: 2px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #919191 0%, #3D4975 100%);
+}

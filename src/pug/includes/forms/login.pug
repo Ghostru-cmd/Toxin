@@ -1,0 +1,17 @@
+include ../form_elements/text_field.pug
+include ../form_elements/button_long.pug
+include ../form_elements/button_white.pug
+
+block login
+	div.login
+		row.login_name Войти
+		div.login_emale
+			+text_field('', 'Email')
+		div.login_passsword
+			+text_field('', 'Пароль')
+		div.login_submit 
+			+button_long('войти')
+		div.login_footer 
+			row.login_footer_text Нет аккаунта на Toxin?
+			div.login_white_button
+				+button_white('создать')
