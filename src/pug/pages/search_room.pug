@@ -12,10 +12,9 @@ html(lang='ru-RU')
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		title Search room
 	body
-		div
-			block header_unregister
-		div.left_bar
-			block filter_date_dropdown
+		block header_unregister
+		.left_bar
+			+filter_date_dropdown()
 			+dropdown_guest()
 			div.checkbox_buttons_name
 				div.checkbox_buttons_name_text Checkbox Buttons
@@ -41,8 +40,8 @@ html(lang='ru-RU')
 					input(type="checkbox", name="disabled_person", id="disabled_person")
 					label.disabled_person(for="disabled_person", style="font-family: Montserrat;font-style: normal;font-weight: bold;font-size: 14px;line-height: 18px;color: rgba(31, 32, 65, 0.75);") Помощник для инвалидов <br>
 						span.postscriptum На 1 этаже вас встретит специалист  и проводит до номера.
-			block dropdown_comfort
-			block expandable_checkbox_list
+			+dropdown_comfort()
+			+expandable_checkbox_list()
 		div.main_page
 			p.rooms_list_text Номера, которые мы для вас подобрали
 			+number_poster('_1', '18140', '9 901₽')
@@ -54,6 +53,9 @@ html(lang='ru-RU')
 			+number_poster('_7', '7840', '9 907₽')
 			+number_poster('_8', '8840', '9 908₽')
 			+number_poster('_9', '2840', '9 909₽')
+			+number_poster('_10', '7840', '8 907₽')
+			+number_poster('_11', '8840', '8 908₽')
+			+number_poster('_12', '2840', '8 909₽')
 
 		div#smartpaginator
 				
