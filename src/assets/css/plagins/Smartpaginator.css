@@ -1,11 +1,9 @@
 ﻿.pager
 {
-    width: 720px;
-    height: 30px;
+    width: 240px;
+    height: 40px;
     padding: 0;
     margin: 0;
-    padding-top: 10px;
-    padding-left: 10px; /*border-radius: 8px; 	-moz-border-radius: 8px;*/
 }
 .pager div.short
 {
@@ -17,6 +15,7 @@
 }
 .pager div.short input
 {
+    display: none;
     width: 28px;
     height: 18px;
     border: none;
@@ -34,14 +33,17 @@
 .pager ul li
 {
     display: inline;
-    margin-left: 2px;
+    height: 40px;
+    width: 40px;
 }
 .pager ul li a
 {
     text-decoration: none;
-    display: inline-table;
-    width: 20px;
-    height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+    width: 40px;
     text-align: center;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -49,9 +51,17 @@
 
 .pager span                             /*Настройка слиля текста после */
 {
-    margin-left: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Dark 75% */
+
     color: rgba(31, 32, 65, 0.75);
-    float: left;
 }
 .pager .btn
 {
@@ -75,8 +85,31 @@
 }
 .pager .disabled
 {
+    display: none;
     color: #A0A0A0 !important;
     text-shadow: 1px 1px 1px #FFFFFF;
+}
+/*toxin*/
+.toxin                                               /*Добавил свой стиль*/
+{
+    background-color: white;
+}
+.toxin.normal
+{
+    background-color: white;
+    color: rgba(31, 32, 65, 0.5);
+}
+.toxin.active
+{
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    color: white;
+}
+.pager.toxin .btn
+{
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border-radius: 22px;
+    color: White;
 }
 /*green*/.green
 {
@@ -99,27 +132,6 @@
     background-color: #588500;
     color: White;
     border: solid 1px #5f9000;
-}
-/*toxin*/.toxin                                               /*Добавил свой стиль*/
-{
-    background-color: white;
-}
-.toxin.normal
-{
-    background-color: white;
-    color: rgba(31, 32, 65, 0.5);
-}
-.toxin.active
-{
-    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-    border-radius: 22px;
-    color: white;
-}
-.pager.toxin .btn
-{
-    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
-    border-radius: 22px;
-    color: White;
 }
 /*black*/.black
 {

@@ -1,7 +1,7 @@
 .left_bar{
     position: absolute;
     top: 70px;
-    left: 140px;
+    left: 10.5%;
     width: 266px;
     height: 800px;
 }
@@ -11,7 +11,7 @@
 }
 .dropdown_guest{
     position: relative;
-    top: 114px;
+    top: 47px;
 }
 .checkbox_buttons{
     position: relative;
@@ -22,11 +22,11 @@
 }
 .checkbox_buttons_name{
     position: relative;
-    top: 309px;
+    top: 180px;
 }
 .checkbox_buttons_dostup_name{
     position: relative;
-    top: 340px;
+    top: 219px;
 }
 .checkbox_buttons_dostup_name .checkbox_buttons{
     margin-bottom: 42px;
@@ -119,11 +119,11 @@
 }
 .dropdown_comfort{
     position: relative;
-    top: 336px;
+    top: 235px;
 }
 .expandable_checkbox_list{
     position: relative;
-    top: 423px;
+    top: 318px;
 }
 #corridor #disabled_person{  
     font-family: Montserrat;
@@ -145,51 +145,21 @@
     position: absolute;
     display: inline-block;
     top: 100px;
-    left: 465px;
+    left: 33.6%;
     height: 123%;
     width: 850px;
 }
+#smartpaginator{
+    position: relative;
+    top: 902px;
+    left: 50%;
+}
 .rooms_list_text{
-    font-family: Quicksand;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    color: #1F2041;
-    margin: 0px;
+    font-weight: 700;
+    font-size: 23.3px;
+    line-height: 31.4px;
+    color: #1f2041;
+    margin: 0;
 }
-/*
-#_1{
-    top: 51px;
-}
-#_2{
-    top: 51px;
-    left: 282px;
-}
-#_3{
-    top: 51px;
-    left: 564px;
-}
-#_4{
-    top: 328px;
-}
-#_5{
-    top: 328px;
-    left: 282px;
-}
-#_6{
-    top: 328px;
-    left: 564px;
-}
-#_7{
-    top: 656px;
-}
-#_8{
-    top: 656px;
-    left: 282px;
-}
-#_9{
-    top: 656px;
-    left: 564px;
-}
-*/

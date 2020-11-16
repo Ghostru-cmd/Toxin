@@ -19,6 +19,7 @@ import './js/form_elements/dropdown_comfort.js'
 import './js/form_elements/expandable_checkbox_list.js'
 import './js/forms/number_poster.js'
 import './js/plagins/jquery.raty.js'
+import './js/pages/search_room.js'
 
 // SCSS
 import './assets/scss/form_elements/radio_button.scss'

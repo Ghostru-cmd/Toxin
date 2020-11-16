@@ -64,8 +64,9 @@
                     container.append($('<span/>').append($('<b/>').text(pageIndex * settings.recordsperpage + 1)))
                                              .append($('<span/>').text('-'))
                                              .append($('<span/>').append($('<b/>').text(upper)))
-                                             .append($('<span/>').text('of'))
-                                             .append($('<span/>').append($('<b/>').text(settings.totalrecords)));
+                                             .append($('<span/>').text(' из '))
+                                             .append($('<span/>').append($('<b/>').text(settings.totalrecords)))
+                                             .append($('<span/>').text(' вариантов аренды'));
                 }
                 function buildNavigation(startPage) {
                     list.find('li').remove();
