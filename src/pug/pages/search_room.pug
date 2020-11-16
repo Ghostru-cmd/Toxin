@@ -12,7 +12,7 @@ html(lang='ru-RU')
 		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		title Search room
 	body
-		block header_unregister
+		+header_unregister()
 		.left_bar
 			+filter_date_dropdown()
 			+dropdown_guest()
@@ -60,4 +60,4 @@ html(lang='ru-RU')
 		div#smartpaginator
 				
 		div
-			block footer
+			+footer()

@@ -1,12 +1,13 @@
 .room_details_images{
     position: absolute;
     display: inline-block;
+    top: 0px;
     width: 1440px;
     height: 485px;
 }
 .room_details_main{
     position: relative;
-    display: inline-block;
+    display: block;
     width: 981px;
     height: 485px;
     left: 0px;
@@ -14,26 +15,27 @@
 }
 .room_details_dop1{
     position: relative;
-    display: inline-block;
+    display: block;
     width: 461px;
     height: 243px;
-    left: 981px;
-    top: -419px;
+    left: 68%;
+    top: -415px;
 }
 .room_details_dop2{
     position: relative;
-    display: inline-block;
+    display: block;
     width: 720px;
     height: 281px;
-    left: 520px;
-    top: -178px;
+    left: 68%;
+    top: -415px;
 }
 .room_info {
     position: absolute;
+    display: grid;
     width: 220px;
-    height: 279px;
-    top: 625px;
-    left: 140px;
+    height: 169px;
+    top: 622px;
+    left: 10.5%;
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -42,14 +44,28 @@
     color: #1F2041;
 }
 .room_impress{
-    top: 625px;
-    left: 501px;
+    top: 615px;
+    left: 36%;
 }
 .reservation {
     top: 625px;
-    left: 920px;
+    left: 929px;
 }
 .reviews{
-    left: 139px;
-    top: 1000px;
+    left: 10.5%;
+    top: 928px;
+}
+.rules{
+    position: absolute;
+    top: 1264px;
+    left: 12%;
+    width: 341px;
+    height: 96px;
+}
+.canceling{
+    position: absolute;
+    top: 1264px;
+    left: 36%;
+    width: 341px;
+    height: 96px;
 }
